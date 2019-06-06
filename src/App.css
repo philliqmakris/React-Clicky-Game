@@ -1,21 +1,68 @@
 body {
-  background-color: rgb(0, 0, 34);
+  
   color: white;
   text-align: center;
+  background-image: url("https://serenademagazine.com/wp-content/uploads/2018/12/concert_music_hall_orchestra_auditorium-40109-1.jpg");
+  background-size: cover;
+  font-family: 'Tangerine', cursive;
+  background-attachment: fixed;
+  color: rgb(238, 238, 238);
 }
 
 .myImage {
   margin: 20px;
+  height: 220px;
+  width: 220px;
+  border-radius: 10px;
 }
 
 .container {
   display: flex;
   flex-flow: row wrap;
   margin: auto;
-  width: 40%;
-  margin-top: 180px;
+  width: 45%;
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.781);
+  padding: 50px;
+  padding-right: 20px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 80px;
 }
+
+header {
+  background-color: rgba(0, 0, 0, 0.705);
+}
+
+h1 {
+  font-size: 150px;
+}
+
+.title {
+  background-color: rgba(0, 0, 0, 0.699);
+  padding-top: 20px;
+  border-radius: 5550px;
+  padding-bottom: 20px;
+  
+}
+
+hr {
+  background-color: white;
+  width: 1000px;
+
+}
+
+h4 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 70px;
+}
+
+
+

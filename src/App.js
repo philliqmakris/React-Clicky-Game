@@ -97,15 +97,31 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <header className="App-header">
+       <div class="title">
+         <h4>Welcome To</h4>
+         
+         <h1>| Composer Clicker |</h1>
+         <hr />
+         <br />
+         <h3>A memory game featuring your favorite classical composers</h3>
+         <br />
+         <hr />
+       
+
+
+        
 
           <h2>Score: {this.state.score}</h2>
           <h2>Top Score: {this.state.topScore}</h2>
+         
+          </div>
         
-        </header>
+        
+        
         <div className="container">
           {images}
         </div>
+      
       </div>
     );
   }
